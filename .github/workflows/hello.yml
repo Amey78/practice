@@ -1,6 +1,6 @@
 name: Hello World           
 on:                         
-  push:
+  pull_request: :
     branches:
       - main                
 jobs:                        
