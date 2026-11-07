@@ -1,0 +1,10 @@
+name: heyy
+on: workflow_dispatch
+
+jobs:
+  say_heyy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: prints heyy
+        run: echo "heyyyy"
